@@ -14,11 +14,12 @@ const routes = createBrowserRouter([
         path: "/",
         element: <MainLayout />,
         errorElement: <Error />,
+        loader: () => fetch('../reviews.json'),
         children: [
             {
                 path: '/',
                 element: <Home />,
-                loader: () => fetch('/reviews.json')
+                
             },
             {
                 path: '/rent',

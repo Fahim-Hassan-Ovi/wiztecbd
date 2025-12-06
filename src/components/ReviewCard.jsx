@@ -3,10 +3,11 @@ import React from 'react'
 export const ReviewCard = ({ review }) => {
     const { name, role, rating, reviewText, earnings, earningsNote, videoThumbnail, profileImage } = review;
     return (
-        <div className="w-full max-w-4xl bg-white rounded-xl shadow-md p-6 flex gap-6">
+        
+        <div className="w-full max-w-4xl bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row gap-6">
 
             {/* Left: Video Thumbnail */}
-            <div className="w-1/3 relative">
+            <div className="w-screen md:w-1/3 relative">
                 <img
                     src={videoThumbnail}
                     alt="Video thumbnail"

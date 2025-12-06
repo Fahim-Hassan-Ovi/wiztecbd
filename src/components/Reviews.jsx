@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import { ReviewCard } from "./ReviewCard";
+import Marquee from "react-fast-marquee";
 
 export const Reviews = ({ data }) => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    if (data?.reviews) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setReviews(data.reviews);  // ✔ use the array
-    }
-  }, [data]);
+    setReviews(data);
+  }, [data])
   return (
     <div className='bg-linear-to-b from-[#2A0019] to-[#3C4C5AD4]'>
       <div className='flex flex-col justify-center items-center gap-4 py-10'>
@@ -21,11 +19,13 @@ export const Reviews = ({ data }) => {
           <p className='text-white text-xl'>See how others grow with Growhubs - real stories, real success.</p>
         </div>
         {/* dynamic reviews */}
-        <div className="grid grid-cols-1">
-          {reviews.map((review, index) => (
-            <ReviewCard key={index} review={review} />
-          ))}
-        </div>
+        <Marquee speed={40} pauseOnHover={true}>
+          <div className="flex gap-5">
+            {reviews.map(review => (
+              <ReviewCard key={review.id} review={review} />
+            ))}
+          </div>
+        </Marquee>
       </div>
     </div>
   )
