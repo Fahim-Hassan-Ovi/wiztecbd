@@ -1,16 +1,35 @@
-# React + Vite
+# WiztecBD Frontend Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend assessment project for the Front-End Developer position at WiztecBD. The project is built using **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Live Demo
+[https://wiztecbd.vercel.app/](https://wiztecbd.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Sign In Page**: Users can see multiple login options (Google, Apple, Email/Phone) with responsive design.
+- **Navbar**: Fully responsive navigation with active link highlights and mobile dropdown.
+- **Reviews Section**: Displays testimonials dynamically with a horizontal scrolling effect.
+- **Tools Section**: Showcases tools and services (placeholder for future content).
+- **Footer**: Gradient background with structured links, social icons, and responsive design.
 
-## React Compiler
+## Technologies Used
+- **React.js**
+- **Tailwind CSS**
+- **React Icons**
+- **React Router**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/Fahim-Hassan-Ovi/wiztecbd.git
+Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copy code
+npm install
+Run the project:
+
+bash
+Copy code
+npm start
