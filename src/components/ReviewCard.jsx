@@ -19,7 +19,7 @@ export const ReviewCard = ({ review }) => {
             </div>
 
             {/* Right section */}
-            <div className="w-2/3 flex flex-col justify-between">
+            <div className="w-screen md:w-2/3 flex flex-col justify-between">
 
                 {/* Profile Row */}
                 <div className="flex items-center gap-3">
