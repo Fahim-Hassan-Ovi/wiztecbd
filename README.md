@@ -1,6 +1,6 @@
-# WiztecBD Frontend Assessment
+# WiztecBD
 
-This is the frontend assessment project for the Front-End Developer position at WiztecBD. The project is built using **React** and **Tailwind CSS**.
+This is a rent property page where user can see some property land and house. The project is built using **React** and **Tailwind CSS**.
 
 ## Live Demo
 [https://wiztecbd.vercel.app/](https://wiztecbd.vercel.app/)
