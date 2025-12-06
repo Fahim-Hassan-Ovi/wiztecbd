@@ -12,8 +12,8 @@
         "reviewText": "I recently had the opportunity to use the platform, and I must say, the feature that allows you to set your own commission is a game changer!",
         "earnings": "$2M",
         "earningsNote": "Earned in Helenuil",
-        "videoThumbnail": "/src/assets/video-thumb.jpg",
-        "profileImage": "/src/assets/profile.jpg"
+        "videoThumbnail": "src/assets/video-thumb.jpg",
+        "profileImage": "src/assets/profile.jpg"
     },
     {
         "id": 2,
@@ -28,8 +28,8 @@
         "reviewText": "The system is incredibly intuitive. I really like how easy it is to collaborate with brands and manage campaigns from one dashboard.",
         "earnings": "$850k",
         "earningsNote": "Earned through design mentorship",
-        "videoThumbnail": "/src/assets/video-thumb4.jpg",
-        "profileImage": "/src/assets/profile2.jpg"
+        "videoThumbnail": "src/assets/video-thumb4.jpg",
+        "profileImage": "src/assets/profile2.jpg"
     },
     {
         "id": 3,
@@ -44,8 +44,8 @@
         "reviewText": "This platform helped me scale my personal brand effortlessly. The analytics tools are powerful and easy to understand!",
         "earnings": "$1.4M",
         "earningsNote": "Earned from brand deals",
-        "videoThumbnail": "/src/assets/video-thumb3.jpg",
-        "profileImage": "/src/assets/profile3.jpg"
+        "videoThumbnail": "src/assets/video-thumb3.jpg",
+        "profileImage": "src/assets/profile3.jpg"
     },
     {
         "id": 4,
@@ -60,8 +60,8 @@
         "reviewText": "Super smooth experience! What I love most is how it automates repetitive tasks and lets me focus on creating impactful strategies.",
         "earnings": "$600k",
         "earningsNote": "Earned through marketing campaigns",
-        "videoThumbnail": "/src/assets/video-thumb4.jpg",
-        "profileImage": "/src/assets/profile4.jpg"
+        "videoThumbnail": "src/assets/video-thumb4.jpg",
+        "profileImage": "src/assets/profile4.jpg"
     },
     {
         "id": 5,
@@ -76,7 +76,7 @@
         "reviewText": "Absolutely love the creative freedom here. The commission system and client communication tools make everything seamless.",
         "earnings": "$3.1M",
         "earningsNote": "Earned from brand partnerships",
-        "videoThumbnail": "/src/assets/video-thumb5.jpg",
-        "profileImage": "/src/assets/profile5.jpg"
+        "videoThumbnail": "src/assets/video-thumb5.jpg",
+        "profileImage": "src/assets/profile5.jpg"
     }
 ]
